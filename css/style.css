@@ -1,0 +1,140 @@
+/* --------------------------------------------------------------------------------------------------------------- */
+
+/* Start Header Area */
+.header_area .main_menu .navbar .navbar-brand {
+  padding: 0 0.2rem 0 0.5rem;
+  color: blueviolet;
+}
+
+.header_area .main_menu .navbar .navbar-nav {
+  padding: 1rem 2rem;
+}
+
+.header_area .main_menu .nav-item .nav-link {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1.7rem;
+  color: blueviolet;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 2px;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_area .main_menu .nav-item .nav-link:hover {
+  color: blue;
+}
+
+.header_area .main_menu .navbar-nav .active {
+  color: blue;
+}
+
+/* End Header Area */
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+/* =============================================================================================================== */
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+/* Start Main Area */
+
+/* Start Banner Area */
+
+/* .site_main .site_banner {
+  background: url("/images/banner/home-banner.png") no-repeat 0% 50%;
+} */
+
+.site_main .site_banner .site_title h3 {
+  padding-top: 20%;
+  font-weight: 500;
+}
+
+/* .site_main .site_banner .site_title h3::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+} */
+
+.site_main .site_banner .site_title h1 {
+  font-size: 4rem;
+}
+
+.site_main .site_banner .site_title h4 {
+  font-size: 1.5rem;
+}
+
+.site_main .site_banner .banner_image > img {
+  padding: 7rem 0;
+  width: 90rem;
+}
+
+.title_text {
+  font: normal bold 50px/72px "Roboto";
+}
+
+/* .text_uppercase {
+  text-transform: uppercase;
+} */
+
+.button {
+  padding: 0.8rem 2.2rem;
+  font: normal 500 16px/20px "Yesava One";
+  position: relative;
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+
+.button.primary_button {
+  background: linear-gradient(to right, blueviolet, blue);
+  background-clip: padding-box;
+  color: whitesmoke;
+  /* color: green; */
+  transition: background 0.5s ease-in;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button.primary_button:hover {
+  background: whitesmoke;
+  background-clip: padding-box;
+  color: black;
+}
+
+/* .button.primary_button::after , .button.secondary_button::after{
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: radial-gradient(lightblue, lightgreen, purple);
+  content: "";
+  z-index: -1;
+  border-radius: 4px;
+} */
+
+.button.secondary_button {
+  background: white;
+  background-clip: padding-box;
+  transition: backgorund 0.5s ease;
+}
+
+.buttonsecondary_button:hover {
+  background: linear-gradient(blueviolet, blue);
+  color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* End Banner Area */
+
+/* End Main Area */
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+/* =============================================================================================================== */
+
+/* ----------------------------------------------------------------------------------------------------------------*/
